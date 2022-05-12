@@ -2,6 +2,9 @@ package org.example.ch2;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+/**
+ * Use the beans, registered explicitly in {@link ProjectConfig}.
+ */
 public class Main {
     public static void main(String[] args) {
         var context = new AnnotationConfigApplicationContext(ProjectConfig.class);

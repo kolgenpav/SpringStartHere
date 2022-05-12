@@ -4,6 +4,9 @@ import org.example.ch2.Parrot;
 import org.example.ch2.ProjectConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+/**
+ * Use the beans with auto scanning the package.
+ */
 public class Main {
     public static void main(String[] args) {
         var context = new AnnotationConfigApplicationContext(ProjectConfigScan.class);
