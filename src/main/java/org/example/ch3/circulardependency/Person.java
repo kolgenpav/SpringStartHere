@@ -9,6 +9,7 @@ public class Person {
 
     private Parrot parrot;
 
+    /*Eager (default) instantiation of parrot dependency by Spring*/
     public Person(Parrot parrot) {
         this.name = "Ella";
         this.parrot = parrot;

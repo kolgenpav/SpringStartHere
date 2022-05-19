@@ -12,7 +12,8 @@ public class Parrot {
     /*We can use @Lasy for initialize one of the beans lazily.
     Instead of fully initializing the bean, it will create a proxy
     to inject it into the other bean. The injected bean
-    will only be fully created when it’s first needed.*/
+    will only be fully created when it’s first needed -
+    lazy instantiation of parrot dependency by Spring*/
     public Parrot(@Lazy Person person) {
         this.name = "Koko";
         this.person = person;
