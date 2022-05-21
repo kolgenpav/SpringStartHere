@@ -21,5 +21,6 @@ public class Main {
         System.out.println(context.getBean(Integer.class));
 
         System.out.println(context.getBean(Parrot.class).getName());
+        System.out.println(context.getBean(Parrot.class).getClass());  //class org.example.ch2.Parrot
     }
 }
